@@ -1,0 +1,23 @@
+package mypackage;
+import java.util.*;
+public class Month {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		/*
+		 Given an integer, , print its first  multiples. 
+		 Each multiple  (where ) should be printed on a new line in the form: N x i = result.
+		 */
+		System.out.println("Enter The Number");
+		int n=sc.nextInt();
+		int a;
+		for(int i=1;i<=10;i++) 
+		{
+			a=n*i;
+			System.out.println(n);
+			
+		}
+	 }   
+
+}

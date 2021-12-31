@@ -1,0 +1,16 @@
+package mypackage;
+import java.util.*;
+
+public class FirstClass 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		float age = sc.nextFloat();
+		float height = sc.nextFloat();
+		float ah=age+height;
+		System.out.println(ah);
+	}
+
+}

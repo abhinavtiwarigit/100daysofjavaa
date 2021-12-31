@@ -1,0 +1,18 @@
+package mypackage1;
+
+public class MyClass 
+{
+
+	public static void main(String[] args) 
+	{
+		//TotalMaths obj=new TotalMaths();
+		//System.out.println(obj.factorial(5));
+		
+		//Thief obj = new Thief();
+		//System.out.println(obj.secretecode());   
+		float pi =3.14f;
+		pi=1;
+		
+	}
+
+}

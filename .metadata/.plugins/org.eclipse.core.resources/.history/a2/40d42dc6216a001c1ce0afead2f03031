@@ -1,0 +1,13 @@
+package mypackage1;
+
+public final class Police // final does not allow the derived class to access the base  class
+{
+	public String secretecode()
+	{
+		return "007" ;
+	}
+	public String callNumber()
+	{
+		return "911";
+	}
+}

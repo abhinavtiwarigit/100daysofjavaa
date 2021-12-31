@@ -1,0 +1,9 @@
+package mypackage1;
+
+public final class Police 
+{
+	public String secretecode()
+	{
+		return "007" ;
+	}
+}

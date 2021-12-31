@@ -1,0 +1,6 @@
+package mypackage1;
+
+public class Thief extends Police
+{
+
+}

@@ -1,0 +1,13 @@
+package mypackage;
+
+public class Salary 
+{
+	public int PF(int basic)
+	{
+		return 12*100/basic;
+	}
+	public int HRA(int basic)
+	{
+		return 40*100/basic;
+	}
+}

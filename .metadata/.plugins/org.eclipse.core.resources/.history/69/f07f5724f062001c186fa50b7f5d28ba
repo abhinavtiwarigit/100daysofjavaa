@@ -1,0 +1,20 @@
+package mypackage;
+import java.util.*;
+public class Month {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		/*
+		 *  Print if a number is prime or not (Input n from the user). 
+		 */
+		System.out.println("Enter the number");
+		int n=sc.nextInt();
+		if(n%1==0 && n%n==0){
+			System.out.println("The number is prime ");
+		}
+		else {
+			System.out.println("The number is not prime");
+		}
+	}
+}
